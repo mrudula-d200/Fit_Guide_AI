@@ -183,7 +183,7 @@ hr {
 # =========================================================
 
 st.markdown(
-    '<div class="main-title">🌸 FitHer AI</div>',
+    '<div class="main-title">🌸 FitGuide AI</div>',
     unsafe_allow_html=True
 )
 
@@ -202,7 +202,7 @@ st.markdown(
 st.markdown("""
 <div class="card">
 
-<h2>🌷 Welcome to FitHer AI</h2>
+<h2>🌷 Welcome to FitGuide AI</h2>
 
 <p>
 Your personal fitness companion designed to help you
@@ -229,7 +229,7 @@ st.markdown(
 )
 
 st.write(
-    "Tell us about yourself so FitHer AI can create "
+    "Tell us about yourself so FitGuide AI can create "
     "a personalized plan. 🌸"
 )
 
@@ -994,7 +994,7 @@ if generate_plan:
 st.divider()
 
 st.markdown(
-    '<div class="section-title">🤖 Chat With FitHer AI</div>',
+    '<div class="section-title">🤖 Chat With FitGuide AI</div>',
     unsafe_allow_html=True
 )
 
@@ -1125,7 +1125,7 @@ for message in st.session_state.messages:
 # =========================================================
 
 user_question = st.chat_input(
-    "💬 Ask FitHer AI..."
+    "💬 Ask FitGuide AI..."
 )
 
 
@@ -1167,7 +1167,7 @@ if user_question:
 
     fitness_context = f"""
 
-You are FitHer AI, a friendly AI fitness and wellness assistant
+You are FitGuide AI, a friendly AI fitness and wellness assistant
 designed especially for women.
 
 You should give simple, friendly and practical answers.
@@ -1340,7 +1340,7 @@ The user asked:
 
 with st.sidebar:
 
-    st.title("🌸 FitHer AI")
+    st.title("🌸 FitGuide AI")
 
     st.write("### ⚙️ Settings")
 
@@ -1361,7 +1361,7 @@ with st.sidebar:
     st.divider()
 
     st.caption(
-        "FitHer AI provides general fitness information "
+        "FitGuide AI provides general fitness information "
         "and estimates. It is not a substitute for "
         "professional medical advice."
     )
