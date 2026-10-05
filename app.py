@@ -26,7 +26,7 @@ client = Groq(
 # =========================================================
 
 st.set_page_config(
-    page_title="FitHer AI",
+    page_title="FitGuide AI",
     page_icon="🌸",
     layout="wide"
 )
