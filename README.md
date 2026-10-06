@@ -1,13 +1,13 @@
 
-# 🌸 FitHer AI
+# 🌸 FitGuide AI
 
 ### 🚀 https://fitguideai-ftg4x2wbtacngcq6zq62rh.streamlit.app/
 
-👉 [Try FitHer AI](https://fitguideai-ftg4x2wbtacngcq6zq62rh.streamlit.app/)
+👉 [Try FitGuide AI](https://fitguideai-ftg4x2wbtacngcq6zq62rh.streamlit.app/)
 
 ### Your Personal AI Fitness & Wellness Companion 💪✨
 
-FitHer AI is an AI-powered fitness and wellness web application built with **Streamlit** and the **Groq API**. It provides personalized workout, nutrition, and fitness guidance based on the user's age, height, weight, fitness goal, gym experience, workout frequency, and food preference.
+FitGuide AI is an AI-powered fitness and wellness web application built with **Streamlit** and the **Groq API**. It provides personalized workout, nutrition, and fitness guidance based on the user's age, height, weight, fitness goal, gym experience, workout frequency, and food preference.
 
 ---
 
@@ -27,7 +27,7 @@ Users can enter:
 
 ### 📊 Fitness Calculations
 
-FitHer AI calculates:
+FitGuide AI calculates:
 
 * BMI
 * BMI category
@@ -62,7 +62,7 @@ Supported food preferences:
 
 ### 🤖 AI Fitness Chatbot
 
-FitHer AI uses the **Groq API** to provide AI-powered answers about:
+FitGuide AI uses the **Groq API** to provide AI-powered answers about:
 
 * Workouts
 * Nutrition
@@ -158,7 +158,7 @@ pip install -r requirements.txt
 
 ## 🔑 Groq API Configuration
 
-FitHer AI uses the Groq API for its AI chatbot.
+FitGuide AI uses the Groq API for its AI chatbot.
 
 Create a file named:
 
@@ -214,7 +214,7 @@ http://localhost:8501
 
 ## 🤖 AI Model
 
-FitHer AI uses the following Groq model:
+FitGuide AI uses the following Groq model:
 
 ```text
 openai/gpt-oss-20b
@@ -243,13 +243,13 @@ The application categorizes BMI into:
 
 ## 🎯 Project Goal
 
-The goal of FitHer AI is to provide an easy-to-use AI-powered fitness companion that helps users understand their fitness profile and receive personalized general guidance about workouts, nutrition, and healthy habits.
+The goal of FitGuide AI is to provide an easy-to-use AI-powered fitness companion that helps users understand their fitness profile and receive personalized general guidance about workouts, nutrition, and healthy habits.
 
 ---
 
 ## ⚠️ Disclaimer
 
-FitHer AI provides general fitness and wellness information and estimates. It is not a substitute for professional medical advice.
+FitGuide AI provides general fitness and wellness information and estimates. It is not a substitute for professional medical advice.
 
 Users with medical conditions, injuries, eating disorders, pregnancy-related concerns, or other serious health concerns should consult a qualified healthcare professional.
 
